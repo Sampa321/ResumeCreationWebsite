@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Resume.css">
+<body>
+    <div> 
+        <div class="name-container">
+            <h1 id="nameInput"></h1>
+            <button onclick="nameAdd()" id="nameBtn">Add Name</button>
+            <button onclick="removeAddBtn()" id="allNameBtnRemove">Remove</button>
+        </div> 
+        <div class="location-container">
+            <h3 id="locationInput"></h3>
+            <button onclick="locationAdd()" id="locationBtn">Add location</button>
+            <button onclick="removeAllLocationButton()" id="removeAllLocationBtn">Remove</button>
+            <button onclick="deleteLocationContainer()" id="dltLocationContainer">Delete</button>
+        </div> 
+<!-- 
+        <center><input type="text" name="location" id="placeId" placeholder="Enter your address"></center> -->
+        <div id="connection">
+            <div><input id="phoneId" type="number" placeholder="Enter phone Number">&nbsp;<SPan>|</SPan></div> 
+            <div><input id="emailId" type="email" placeholder="Enter email address">&nbsp;<SPan>|</SPan></div> 
+            <div><input id="linkedInId" type="text" placeholder="Enter LinkedIn link">&nbsp;&nbsp;<a id="linkedInLink" href="">LinkedIn</a>&nbsp;&nbsp;<span>|</span></div>
+            <div><input id="gitHubId" type="text" placeholder="Enter Github Link">&nbsp;&nbsp;<a id="githubLink" href="">Github</a></div>
+        </div>
+    </div>
+    <div>
+        <b><h1>Summary :</h1></b>
+        <hr>
+        <textarea name="" id="summaryTitle"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore laboriosam culpa soluta impedit ab aliquid voluptatibus ipsum, ullam sed, nulla, harum reprehenderit consequatur aperiam quam sapiente provident similique illum praesentium.
+        Voluptate velit enim id quidem vitae natus minus eius eum in molestiae quis, sunt atque, doloremque magnam cupiditate officia dolorem consequuntur deleniti aut qui! Quas provident id nobis ex ipsum.
+        Quaerat ad recusandae dolorem quod laudantium. Nesciunt non dignissimos placeat praesentium quidem possimus expedita repudiandae reiciendis dolorum aspernatur recusandae dolore rerum sapiente dolores, neque sint sunt exercitationem blanditiis obcaecati laudantium!
+        Quis nulla dignissimos cupiditate odit, non numquam blanditiis nostrum, incidunt soluta sequi, quaerat ducimus itaque! Itaque hic quam soluta voluptate nisi qui ducimus voluptatum distinctio obcaecati tempore, cum autem corporis!
+        Quam blanditiis voluptates ullam eligendi quod reiciendis similique suscipit repellendus natus error ipsa repellat explicabo culpa officia temporibus praesentium tempore, quia, laudantium est cumque sequi labore libero architecto. Reiciendis, animi.
+        Corrupti numquam non culpa magnam optio ut ad, repudiandae iure accusamus, dolores quam molestias magni ab voluptatibus sint voluptates id? Aliquam rerum dolorum optio praesentium sed voluptas suscipit explicabo laborum.
+        Itaque alias reprehenderit inventore deserunt molestias officiis, quis omnis ad sint aliquid harum ratione nisi odit voluptatibus commodi doloremque porro quos consequuntur, animi consequatur adipisci magnam. Asperiores temporibus vitae id.
+        Nisi voluptates exercitationem officiis accusantium. Itaque et explicabo nisi maiores enim debitis reiciendis sequi esse vero doloremque quos, tempora vel quidem distinctio nobis quis accusamus. Mollitia distinctio nam numquam soluta.
+        Eos rem accusamus assumenda autem distinctio dolorem vero consectetur non, incidunt ipsum at impedit sunt quas itaque iste nisi voluptatibus praesentium libero amet commodi, ratione architecto! Voluptas perferendis eveniet consequatur!
+        Iure voluptates esse nam, soluta nulla exercitationem doloribus cupiditate quia consectetur nisi delectus molestias sit ea libero perspiciatis quam voluptate tempore tenetur magnam alias accusantium asperiores porro? Nihil, eaque cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error alias ullam voluptatibus? Esse doloremque dolore sequi deserunt iusto, rerum alias facilis sit natus dignissimos provident possimus quas labore atque aperiam!Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis a odio porro praesentium, cupiditate officiis expedita molestiae pariatur delectus sit fugiat totam inventore sunt assumenda, ea tempore molestias voluptate labore.</textarea>
+    </div>
+    <div>
+        <b><h1>Education :</h1></b>
+        <hr>
+        <h4></h4>
+    </div>
+    <div>
+        <b><h1>Technical Sills :</h1></b>
+        <hr>
+        <h4></h4>
+    </div>
+    <div>
+        <h1><b>Projects :</b></h1>
+        <hr>
+        <h4 id="projectHeading"></h4>
+        <p id="projectTitle"></p>
+    </div>
+    <div>
+        <h1><b>Achievements :</b></h1>
+        <hr>
+        <h3 id="acheveHeading"></h3>
+        <p id="acheveTitle"></p>
+    </div>
+    <div>
+        <h1><b>Certification :</b></h1>
+        <hr>
+        <h3 id="certificationCourse"></h3>
+        <h2 id="CertificationPlatform"></h2>
+    </div>
+    <div>
+        <h1><b>Languages : </b></h1>
+        <hr>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+    <script src="Resume.js"></script>
+</body>
+</html>
